@@ -4,6 +4,20 @@
 @tailwind components;
 @tailwind utilities;
 
-/*summary {*/
-/*    background-image: url("/src/assets/images/icon-plus.svg") no-repeat 0 0;*/
-/*}*/
+@media (max-width: 1439px) {
+    .page {
+        background-image: url("/src/assets/images/background-pattern-mobile.svg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-color: hsl(275deg 100% 97%);
+    }
+}
+
+@media (min-width: 1440px) {
+    .page {
+        background-image: url("/src/assets/images/background-pattern-desktop.svg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-color: hsl(275deg 100% 97%);
+    }
+}
