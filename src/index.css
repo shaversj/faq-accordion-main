@@ -4,7 +4,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@media (max-width: 1439px) {
+@media (min-width: 0px) {
     .page {
         background-image: url("/src/assets/images/background-pattern-mobile.svg");
         background-repeat: no-repeat;

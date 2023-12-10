@@ -12,10 +12,10 @@ function App() {
                         <h1 className={"text-[32px] font-bold lg:text-[56px]"}>FAQs</h1>
                     </header>
                     <main className={"divide-y-[0.5px]"}>
-                        <div className={"py-5 lg:py-6"}>
+                        <div className={"py-5 lg:py-[1.3rem]"}>
                             <details className={"bg-icon-p bg-no-repeat bg-right open:bg-icon-m open:bg-right-top"}>
-                                <summary className={"list-none pr-14 leading-[1.2rem] lg:leading-[1.75rem] text-[16px] lg:text-[18px] font-semibold text-dark-purple hover:text-hover-purple"}>What is Frontend Mentor, and how will it help me?</summary>
-                                <p className={"text-grayish-purple text-sm pt-6 lg:text-base"}>
+                                <summary className={"list-none pr-14 leading-[1.2rem] lg:leading-[2.25rem] text-[16px] lg:text-[18px] font-semibold text-dark-purple hover:text-hover-purple"}>What is Frontend Mentor, and how will it help me?</summary>
+                                <p className={"text-grayish-purple text-sm pt-6 lg:pt-[1.2rem] lg:text-base"}>
                                     Frontend Mentor offers realistic coding challenges to help developers improve their
                                     frontend coding skills with projects in HTML, CSS, and JavaScript. It's suitable for
                                     all levels and ideal for portfolio building.
@@ -24,10 +24,10 @@ function App() {
                             </details>
                         </div>
 
-                        <div className={"py-5 lg:py-6"}>
+                        <div className={"py-5 lg:py-[1.3rem]"}>
                             <details className={"bg-icon-p bg-no-repeat bg-right open:bg-icon-m open:bg-right-top "}>
-                                <summary className={"list-none pr-14 text-[16px] font-semibold text-dark-purple hover:text-hover-purple lg:text-[18px] lg:leading-[1.75rem]"}>Is Frontend Mentor free?</summary>
-                                <p className={"text-grayish-purple text-sm pt-6 lg:text-base"}>
+                                <summary className={"list-none pr-14 text-[16px] font-semibold text-dark-purple hover:text-hover-purple lg:text-[18px] lg:leading-[2.25rem]"}>Is Frontend Mentor free?</summary>
+                                <p className={"text-grayish-purple text-sm pt-6 lg:pt-[1.2rem] lg:text-base"}>
                                     Yes, Frontend Mentor offers both free and premium coding challenges, with the free
                                     option providing access to a range of projects suitable for all skill levels.
                                 </p>
@@ -35,10 +35,10 @@ function App() {
                             </details>
                         </div>
 
-                        <div className={"py-5 lg:py-6"}>
+                        <div className={"py-5 lg:py-[1.3rem]"}>
                             <details className={"bg-icon-p bg-no-repeat bg-right open:bg-icon-m open:bg-right-top "}>
-                                <summary className={"list-none pr-14 leading-[1.2rem] text-[16px] font-semibold text-dark-purple hover:text-hover-purple lg:text-[18px] lg:leading-[1.75rem]"}>Can I use Frontend Mentor projects in my portfolio?</summary>
-                                <p className={"text-grayish-purple text-sm pt-6 lg:text-base"}>
+                                <summary className={"list-none pr-14 leading-[1.2rem] text-[16px] font-semibold text-dark-purple hover:text-hover-purple lg:text-[18px] lg:leading-[2.25rem]"}>Can I use Frontend Mentor projects in my portfolio?</summary>
+                                <p className={"text-grayish-purple text-sm pt-6 lg:pt-[1.2rem] lg:text-base"}>
                                     Yes, you can use projects completed on Frontend Mentor in your portfolio. It's an excellent
                                     way to showcase your skills to potential employers!
                                 </p>
@@ -46,10 +46,10 @@ function App() {
                             </details>
                         </div>
 
-                        <div className={"py-5 lg:py-6"}>
+                        <div className={"py-5 lg:py-[1.3rem]"}>
                             <details className={"bg-icon-p bg-no-repeat bg-right open:bg-icon-m open:bg-right-top "}>
-                                <summary className={"list-none pr-14 leading-[1.2rem] text-[16px] font-semibold text-dark-purple hover:text-hover-purple lg:text-[18px] lg:leading-[1.75rem]"}>How can I get help if I'm stuck on a challenge?</summary>
-                                <p className={"text-grayish-purple text-sm pt-6 lg:text-base"}>
+                                <summary className={"list-none pr-14 leading-[1.2rem] text-[16px] font-semibold text-dark-purple hover:text-hover-purple lg:text-[18px] lg:leading-[2.25rem]"}>How can I get help if I'm stuck on a challenge?</summary>
+                                <p className={"text-grayish-purple text-sm pt-6 lg:pt-[1.2rem] lg:text-base"}>
                                     The best place to get help is inside Frontend Mentor's Discord community. There's a help
                                     channel where you can ask questions and seek support from other community members.
                                 </p>
