@@ -3,3 +3,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/*summary {*/
+/*    background-image: url("/src/assets/images/icon-plus.svg") no-repeat 0 0;*/
+/*}*/
