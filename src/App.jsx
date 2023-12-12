@@ -13,7 +13,7 @@ function App() {
 
             <main className={"divide-y-[0.5px]"}>
               <div className={"py-5 lg:py-[1.3rem]"}>
-                <details className={"bg-icon-p bg-right bg-no-repeat open:bg-icon-m open:bg-right-top"}>
+                <details className={"bg-icon-p bg-right bg-no-repeat open:bg-icon-m open:bg-right-top"} open={true}>
                   <summary className={"list-none pr-14 text-[16px] font-semibold leading-[1.2rem] text-dark-purple hover:text-hover-purple lg:text-[18px] lg:leading-[2.25rem]"}>What is Frontend Mentor, and how will it help me?</summary>
                   <p className={"pt-6 text-sm leading-[1.3rem] text-grayish-purple lg:pt-[1.2rem] lg:text-base"}>
                     Frontend Mentor offers realistic coding challenges to help developers improve their frontend coding skills with projects in HTML, CSS, and JavaScript. It's suitable for all levels and ideal for portfolio building.
@@ -32,7 +32,7 @@ function App() {
 
               <div className={"py-5 lg:py-[1.3rem]"}>
                 <details className={"bg-icon-p bg-right bg-no-repeat open:bg-icon-m open:bg-right-top "}>
-                  <summary className={"list-none pr-14 text-[16px] font-semibold leading-[1.2rem] text-dark-purple hover:text-hover-purple lg:text-[18px] lg:leading-[2.25rem]"}>Can I use Frontend Mentor projects in my portfolio?</summary>
+                  <summary className={"list-none pr-14 text-[16px] font-semibold leading-[1.2rem] text-dark-purple hover:text-hover-purple lg:pr-0 lg:text-[18px] lg:leading-[2.25rem]"}>Can I use Frontend Mentor projects in my portfolio?</summary>
                   <p className={"pt-6 text-sm leading-[1.3rem] text-grayish-purple lg:pt-[1.2rem] lg:text-base"}>
                     Yes, you can use projects completed on Frontend Mentor in your portfolio. It's an excellent way to showcase your skills to potential employers!
                   </p>
